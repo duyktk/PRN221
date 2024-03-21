@@ -7,14 +7,14 @@
         mc:Ignorable="d"
         Title="Video Player" Height="450" Width="800">
     <Grid>
-        <Button x:Name="btnBrowser" Content="Browse" HorizontalAlignment="Left" Margin="421,25,0,0" VerticalAlignment="Top" Height="42" Width="96" Grid.Column="6"/>
+        <Button x:Name="btnBrowser" Content="Browse" HorizontalAlignment="Left" Margin="694,25,0,0" VerticalAlignment="Top" Height="42" Width="96"/>
         <TextBox x:Name="txtDirectory" HorizontalAlignment="Left" Height="42" Margin="10,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="655" FontSize="15" Grid.ColumnSpan="7"/>
         <Button x:Name="btnPlay" Content="Play" HorizontalAlignment="Left" Height="39" Margin="2,385,0,0" VerticalAlignment="Top" Width="79" Grid.ColumnSpan="3" Grid.Column="1"/>
-        <Button x:Name="btnPause" Content="Pause" HorizontalAlignment="Left" Height="39" Margin="27,385,0,0" VerticalAlignment="Top" Width="79" Grid.Column="3" Grid.ColumnSpan="3"/>
-        <Button x:Name="btnStop" Content="Stop" HorizontalAlignment="Left" Height="39" Margin="27,385,0,0" VerticalAlignment="Top" Width="79" Grid.Column="5" Grid.ColumnSpan="2"/>
-        <Button x:Name="btnYoutube" Content="Youtube" HorizontalAlignment="Left" Height="39" Margin="429,385,0,0" VerticalAlignment="Top" Width="80" Grid.Column="6"/>
+        <Button x:Name="btnPause" Content="Pause" HorizontalAlignment="Left" Height="39" Margin="109,385,0,0" VerticalAlignment="Top" Width="79"/>
+        <Button x:Name="btnStop" Content="Stop" HorizontalAlignment="Left" Height="39" Margin="209,385,0,0" VerticalAlignment="Top" Width="79"/>
+        <Button x:Name="btnYoutube" Content="Youtube" HorizontalAlignment="Left" Height="39" Margin="710,385,0,0" VerticalAlignment="Top" Width="80"/>
         <MediaElement x:Name="Media" HorizontalAlignment="Left" Height="243" Margin="10,85,0,0" VerticalAlignment="Top" Width="774" Grid.ColumnSpan="7"/>
         <Slider HorizontalAlignment="Left" Margin="2,347,0,0" VerticalAlignment="Top" Width="758" Grid.ColumnSpan="6" Grid.Column="1"/>
-        <Slider x:Name="VolumeSlider" HorizontalAlignment="Left" Margin="76,396,0,0" VerticalAlignment="Top" Width="154" Grid.Column="6" Maximum="1" LargeChange="0.1" SmallChange="0.01" Value="1"/>
+        <Slider x:Name="VolumeSlider" HorizontalAlignment="Center" Margin="0,396,0,0" VerticalAlignment="Top" Width="154" Maximum="1" LargeChange="0.1" SmallChange="0.01" Value="1"/>
     </Grid>
 </Window>
